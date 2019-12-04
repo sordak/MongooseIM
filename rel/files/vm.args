@@ -29,4 +29,4 @@
 -sasl sasl_error_logger false
 
 ## 
--kernel inet_dist_listen_min 50000 inet_dist_listen_max 50011
+-kernel inet_dist_listen_min 50000 inet_dist_listen_max 50020
