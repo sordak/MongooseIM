@@ -24,7 +24,7 @@
 {s2s_default_policy, deny}.
 % More processes and more ports.
 % But it increases memory usage.
-{highload_vm_args, "+P 10000000 -env ERL_MAX_PORTS 250000"}.
+{highload_vm_args, "+P 10000000 -env ERL_MAX_PORTS 350000"}.
 {mod_amp, ""}.
 {ejabberd_service, ",{8888, ejabberd_service, [\n"
                  "                {access, all},\n"

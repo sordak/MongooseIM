@@ -27,3 +27,6 @@
 
 ## With lager sasl reports are redundant so turn them off
 -sasl sasl_error_logger false
+
+## 
+-kernel inet_dist_listen_min 50000 inet_dist_listen_max 50011
