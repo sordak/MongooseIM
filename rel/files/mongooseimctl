@@ -11,7 +11,7 @@ if [ ! -z "$RUNNER_USER" ] && [ `whoami` != "$RUNNER_USER" ]; then
     exec sudo -u "$RUNNER_USER" -i "$0" "$@"
 fi
 
-EJABBERD_DIR="${RUNNER_SCRIPT_DIR%/*}"
+EJABBERD_DIR=/usr/lib/mongooseim/
 EJABBERD_VMARGS_PATH="${RUNNER_ETC_DIR}"/vm.args
 START_ERL=`cat "$EJABBERD_DIR"/releases/start_erl.data`
 ERTS_VSN="${START_ERL% *}"
